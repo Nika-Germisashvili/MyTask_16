@@ -218,8 +218,12 @@ h2 {
   display: flex;
 }
 
+.e1, .e2, .e3, .e4, .e5, .e6 {
+  background: linear-gradient(180deg, rgba(7, 59, 255, 0.425215) 0%, rgba(255, 255, 255, 0) 100%);
+  border-radius: 50%;
+}
+
 .e1 {
-  background-image: url(images/Pattern/1.png);
   width: 101px;
   height: 101px;
   margin-top: 180px;
@@ -228,7 +232,6 @@ h2 {
 .e2 {
   width: 39px;
   height: 39px;
-  background-image: url(images/Pattern/2.png);
   margin: 63px 0px 0px 70px;
 }
 
@@ -236,35 +239,30 @@ h2 {
   width: 23px;
   height: 23px;
   margin: 619px 0px 0px 17px;
-  background-image: url(images/Pattern/3.png);
 }
 
 .e4 {
   width: 62px;
   height: 62px;
   margin: 458px 0px 0px 35px;
-  background-image: url(images/Pattern/4.png);
 }
 
 .e5 {
-  background-image: url(images/Pattern/5.png);
   width: 36px;
   height: 36px;
   margin: 490px 0px 0px 403px;
 }
 
 .e6 {
-  background-image: url(images/Pattern/6.png);
   width: 265px;
   height: 265px;
   margin-left: 27px;
 }
 
 footer {
-  position: absolute;
   height: 60px;
   width: 100%;
-  top: 93.33%;
+  margin-top: 155px;
   display: flex;
   justify-content: space-between;
   align-items: center;
